@@ -15,10 +15,11 @@ a{
   text-decoration: none;
   color: inherit;
 }
-.app{
-  width:80%;
-  margin:auto;
+.app {
+  width: 80%;
+  margin: 80px auto 0 auto;  /* top | horizontal | bottom | horizontal */
 }
+
 @keyframes fadeIn{
   0%{
     opacity:0;

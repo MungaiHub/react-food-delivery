@@ -1,10 +1,18 @@
 
-.navbar{
-padding: 20px 0px;
-display: flex;
-justify-content: space-between;
-align-items: center;
+.navbar {
+  position: fixed;            /* make it stay fixed at the top */
+  top: 0;
+  left: 0;
+  width: 100%;                /* full width across the screen */
+  padding: 20px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;    /* keeps it visible while scrolling */
+  z-index: 1000;              /* ensures it appears above all other elements */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* optional shadow for clarity */
 }
+
 
 .navbar .logo{
     width: 150px;
